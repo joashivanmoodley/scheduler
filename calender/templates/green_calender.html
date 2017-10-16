@@ -1,0 +1,48 @@
+<!doctype html>
+
+<html>
+<head>
+    <title>Google CalendarAppointment Viewer</title>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="initial-scale=1.0">
+</head>
+    
+  <body>
+    <script type="text/javascript">
+    var BASE_URL = '{{BASE_URL}}'
+    </script>
+    <h4 class="modal-title">Select A Date</h4>
+        <div class="modal-content">
+
+        <form role="form">
+            <select id="month" name="month" onclick=LoadCalendar()>
+                <option value="0">January</option>
+                <option value="1">February</option>
+                <option value="2">March</option>
+                <option value="3">April</option>
+                <option value="4">May</option>
+                <option value="5">June</option>
+                <option value="6">July</option>
+                <option value="7">August</option>
+                <option value="8">September</option>
+                <option value="9">October</option>
+                <option value="10">November</option>
+                <option value="11">December</option>
+            </select>
+            <input class="txt" type="text" id="year" value="">
+            <input type="button" value="Show" name="gobutton" onclick=LoadCalendar()>
+        </form>
+        </div>
+
+        <br>
+        <div id="month_calendar"></div>
+        <div id="day_calendar"></div>
+        <div id="err" class="red"></div>
+                
+  </body>
+     <script type="text/javascript" src="/{{BASE_URL}}assets/js/jquery-3.2.1.min.js"></script>
+    <script type="text/javascript" src="/{{BASE_URL}}assets/js/cal.js"></script>
+    <link rel="stylesheet" href="/{{BASE_URL}}assets/css/bootstrap.min.css" type="text/css">
+
+
+</html>

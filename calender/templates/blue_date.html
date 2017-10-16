@@ -1,0 +1,387 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Bookings for {{date}} </title>
+</head>
+<body>
+ <h1>Bookings for {{date}}<span class="clear"></span><a class="btn table-info" href="/{{BASE_URL}}">Back</a></h1> 
+<table class='table table-bordered table-hover table-responsive table-striped'>
+<thead class="thead">
+	<tr class="table-info">
+	<th scope="row"> Time</th>
+    <th scope="row"> 15 min</th>
+    <th scope="row"> 30 min</th>
+    <th scope="row"> 45 min</th>
+    <th scope="row"> 60 min</th>
+  </tr>
+  </thead>
+	
+	<tr id="01">
+	<td><strong> 01:00 </strong> </td>
+	<td id="15" height="100">
+        <img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+    </td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="02">
+	<td><strong> 02:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="03">
+	<td><strong> 03:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="04">
+	<td><strong> 04:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="05">
+	<td><strong> 05:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="06">
+	<td><strong> 06:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+<tr id="07">
+	<td><strong> 07:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	
+</tr>
+	<tr id="08">
+	<td><strong> 08:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="09">
+	<td><strong> 09:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="10">
+	<td><strong> 10:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="11">
+	<td><strong> 11:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="12">
+	<td><strong> 12:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="13">
+	<td><strong> 13:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="14">
+	<td><strong> 14:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="15">
+	<td><strong> 15:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="16">
+	<td><strong> 16:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="17">
+	<td><strong> 17:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="18">
+	<td><strong> 18:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="19">
+	<td><strong> 19:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="20">
+	<td><strong> 20:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="21">
+	<td><strong> 21:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="22">
+	<td><strong> 22:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+	<tr id="23">
+	<td><strong> 23:00 </strong> </td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+</tr>
+<tr id="25">
+	<td><strong> 24:00 </strong></td>
+	<td id="15" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="30" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="45" height="100"><img  data-toggle='modal' data-target='#event_modal' style="height:100%;width:100%" src="/{{BASE_URL}}assets/image/blank-image.png" onclick="$('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))">
+</td>
+	<td id="60" height="100"><a href="#"  data-toggle='modal' data-target='#event_modal' onclick="    $('#id_coords').val($(this).closest('tr').attr('id')+ '_'+ $(this).closest('td').attr('id'))
+">
+    <div style="height:100%;width:100%">
+    </div>
+</a>
+</td>
+</tr>
+
+</table>
+
+<div id="event_modal" class="modal fade" role="dialog">
+  <div class="modal-dialog">
+
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Add Event Info</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+            <form role="form">
+                <input id="id_coords" type="hidden" class="form-control">
+                 <div class="form-group">
+                  <label for="usr">Summary:</label>
+                  <input id="id_summary" type="text" class="form-control">
+                </div>
+                <div class="form-group">
+                  <label for="usr">Description:</label>
+                  <input id="id_description" type="text" class="form-control">
+                </div>
+                
+                  <button type="button" onclick="addEvent()" class="btn btn-default">Add Event</button>
+                </form>
+        </p>
+      </div>
+      <div class="modal-footer">
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+</body>
+<script type="text/javascript" src="/{{BASE_URL}}assets/js/jquery-3.2.1.min.js"></script>
+<script type="text/javascript" src="/{{BASE_URL}}assets/js/popper.min.js"></script>
+<script type="text/javascript" src="/{{BASE_URL}}assets/js/bootstrap.min.js"></script>
+
+
+<link rel="stylesheet" href="/{{BASE_URL}}assets/css/bootstrap.min.css" type="text/css">
+<script type="text/javascript">
+
+/* CSRF token for POST requests */
+    function getCookie(name) {
+        var cookieValue = null;
+        if (document.cookie && document.cookie != '') {
+            var cookies = document.cookie.split(';');
+            for (var i = 0; i < cookies.length; i++) {
+                var cookie = jQuery.trim(cookies[i]);
+                // Does this cookie string begin with the name we want?
+                if (cookie.substring(0, name.length + 1) == (name + '=')) {
+                    cookieValue = decodeURIComponent(cookie.substring(name.length + 1));
+                    break;
+                }
+            }
+        }
+        return cookieValue;
+    }
+	$( document ).ready(function() {
+		{% for d in data %}
+			start = "{{d.start}}";
+			end ="{{d.end}}";
+			var hour = "{{d.hour}}";
+			var slots = {{d.slots}};
+		    var next_slot = {{d.start_slot}}
+		    for (i = 0; i < slots; i++) {
+			    $('#'+hour).each(function(){  
+				    $(this).find('td').eq(next_slot).html("<span>{{d.summary}}</span>").css({"background-color": "#bee5eb"})
+				    next_slot = next_slot +1
+		    	});
+			}
+		{% endfor %}
+  });  
+	function addEvent(){
+        var coords = $('#id_coords').val();
+        var summary = $('#id_summary').val();
+        var description = $('#id_description').val();
+        var post_data = {
+            'csrfmiddlewaretoken': getCookie('csrftoken'),
+            'coords': coords,
+            'summary': summary,
+            'description': description,
+            'date': '{{date}}',
+            'length': 15
+        };
+        $.ajax({
+              url:'/add-event/',
+              data: post_data,
+              method: 'POST',
+              success: function(data) {
+                alert(data);
+                location.reload();
+              }
+          });
+	}
+</script>
+</html>
